@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Personal Portfolio Website</title>
+    <link rel="stylesheet" href="assignment2style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <img src="logo.avif" alt="website logo">
+            <nav>
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="avatar.webp" alt="Profile Picture">
+            <p>Hi, I'm Navya, a passionate web developer with experience in building responsive and dynamic websites. I love creating user-friendly interfaces and solving complex problems.</p>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="project1.jpeg" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>A front-end developer is someone who creates websites and web applications. The main responsibility of the front-end developer is the user interface. The front-end developer works on the side of technology that the user touches and sees. The front-end developer builds the front-end portion of websites and web applications using web languages such as HTML, CSS, and JavaScript.Front-end developer duties may include:
+                        Implementing responsible web design principles to ensure that the company website renders well across multiple devices
+                        Designing a framework for creating user apps that grows with the needs of the company
+                        Monitoring website performance, watching for traffic drops related to site usability problems and rectifying the issues. <a href="#">View Project</a></p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project2.jpeg" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>The process of front-end development involves the following steps:
+                        Requirements Gathering: Understand the project requirements.
+                        Planning: Plan the front-end development project.
+                        Designing: Create the visual interface of the website.
+                        Development: Use HTML, CSS, and JavaScript to build the user interface.
+                        Testing and Deployment: Test the website and deploy it.
+                        Maintenance and Support: Provide ongoing support for the front-end development. <a href="#">View Project</a></p>
+                </div>
+                <div class="portfolio-item">
+                    <img src="project3.jpeg" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p> A back-end developer is responsible for:
+                        Creating, coding, and improving the server, server-side applications, and databases.
+                        Studying industry trends and designing better programs.
+                        Writing web services and APIs used by front-end developers and mobile application developers.
+                        Maintaining the server-side logic, databases, and other components of a web application or software.
+                        Handling database management, security, and management of the website. <a href="#">View Project</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Simple Personal Portfolio Website. All Rights Reserved.</p>
+            <div class="social-media">
+                <a href="https://linkedin.com/in/navya-chetana-r-l-aa042117b" target="_blank">LinkedIn</a>
+                <a href="https://github.com/navyachetu7483" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+</body>
+</html>
