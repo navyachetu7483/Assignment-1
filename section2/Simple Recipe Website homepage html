@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Recipe Website</title>
+    <link rel="stylesheet" href="assignment2styles2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home1.html">Home</a></li>
+                <li><a href="Recipes.html">Recipes</a></li>
+                <li><a href="Contact1.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Our Recipe Website</h1>
+        <p>A recipe is simply defined as a set of instructions with a list of ingredients used to prepare a particular food, dish or drink. People use recipes to replicate foods they enjoy that they otherwise do not know how to make. Chefs use recipes to make sure a dish tastes the same each time it is ordered.</p>
+    </header>
+    <main>
+        <section class="featured-recipe">
+            <h2>Featured Recipe</h2>
+            <p>Check out our latest delicious recipe that you must try!</p>
+            <a href="recipe-detail.html">Read More</a>
+        </section>
+    </main>
+    <footer>
+        <p>Simple Recipe Website</p>
+        <p>
+            <a href="https://linkedin.com/in/navya-chetana-r-l-aa042117b" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/navyachetu7483" target="_blank">GitHub</a> |
+        </p>
+    </footer>
+</body>
+</html>
