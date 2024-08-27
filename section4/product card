@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Card</title>
+    <style>
+        .product-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border: 1px solid #120202;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(56, 55, 55, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    text-align: center;
+}
+
+.product-info h3 {
+    margin: 5px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.product-info p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.product-info span {
+    font-size: 18px;
+    font-weight: bold;
+}
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <img src="product.webp" alt="Product Image">
+        <div class="product-info">
+            <h3>Watch</h3>
+            <p>A watch is a portable timepiece that is designed to be worn on the wrist or carried in the pocket.</p>
+            <span>Rs1000</span>
+        </div>
+    </div>
+</body>
+</html>
