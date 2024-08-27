@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        .profile {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #363434;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(199, 194, 194, 0.1);
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-details h1 {
+    margin: 0;
+    color:aliceblue;
+}
+
+.profile-details p {
+    color: #f7f3f3;
+}
+</style>
+</head>
+<body>
+    <div class="profile">
+        <div class="profile-picture">
+            <img src="avatar.webp" alt="Profile Picture">
+        </div>
+        <div class="profile-details">
+            <h1>Navya chetana R L</h1>
+            <p>This is a brief bio about Navya.</p>
+        </div>
+    </div>
+</body>
+</html>
