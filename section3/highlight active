@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>highlight active</title>
+    <style>
+        aside {
+    width: 200px;
+    background-color: #333;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside ul li {
+    border-bottom: 1px solid #444;
+}
+
+aside ul li a {
+    display: block;
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+}
+
+aside ul li a:active {
+    background-color: #575757;
+}
+    </style>
+</head>
+<body>
+    <aside>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </aside>
+</body>
+</html>
