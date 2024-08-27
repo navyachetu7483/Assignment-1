@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, footer {
+            background-color: #250101;
+            color: rgb(241, 236, 236);
+            padding: 50px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 100px;
+        }
+        main {
+            padding: 2px;
+        }
+        article {
+            background-color: rgb(247, 244, 246);
+            border-radius: 8px;
+            box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1px;
+            padding: 1px;
+        }
+        aside {
+            background-color: #e2e2e2;
+            padding: 1px;
+            border-radius: 8px;
+            margin-top: 1px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Simple Blog</h1>
+    </header>
+    <nav>
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+    </nav>
+    <main>
+        <article>
+            <h2>First blog Post</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus aliquid eum explicabo voluptatum iste eaque debitis error hic! Assumenda, et.
+            </p>
+            <p><a href="#readmore">Read more.....</a></p>
+        </article>
+        <article>
+            <h2>Second blog Post</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus aliquid eum explicabo voluptatum iste eaque debitis error hic! Assumenda, et.
+            </p>
+            <p><a href="#readmore">Read more.....</a></p>
+        </article>
+        <aside>
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, deserunt!</p>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Simple Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
