@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block&Inline</title>
+    <Style>
+        .Block-elements{
+            background-color: #a9d9fc;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        .Inline-elements {
+            background-color: #bdf490;
+            padding: 20px;
+        }
+        .Inline-elements strong {
+            color: #100101;
+            font-weight: bold;
+        }
+        .Inline-elements em {
+            color: #0e0101;
+            font-weight: bold;
+        }
+        .Inline-elements a {
+            color: #011017;
+            font-weight: bold;
+        }
+    </Style>
+</head>
+<body>
+    <div class="Block-elements">
+        <h2>
+            This a heading
+        </h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, suscipit? Temporibus minus, vitae hic nobis autem aliquam possimus rem minima laborum exercitationem sunt praesentium quos distinctio ad! Corporis delectus officia laboriosam laborum velit et mollitia corrupti magni id harum, beatae quia. Nemo optio magnam doloribus. Laborum sequi molestiae corporis dignissimos.</p>
+        <ul>
+            <li>Item1</li>
+            <li>Item2</li>
+            <li>Item3</li>
+        </ul>
+    </div>
+    <p class="Inline-elements">This is <strong>strong </strong>and <em>emphasized </em>text, visit <a href="https://example.com">Example</a>
+    </p>
+</body>
+</html>
