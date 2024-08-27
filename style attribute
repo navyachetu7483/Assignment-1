@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style attributes</title>
+</head>
+<body>
+    <h1 style=" color:rgb(222, 201, 241); background-color:rgb(7, 0, 0); text-align:center; padding:20px;">My Website</h1>
+    <div style="text-align:right;">
+    <a href="#Home" style="display: inline-block; padding: 10px; background-color: #2e0231; color: rgb(247, 243, 243); text-decoration: none;">Home</a>
+    <a href="#About" style="display: inline-block; padding: 10px; background-color: #2e0231; color: rgb(247, 243, 243); text-decoration: none; ">About</a>
+    <a href="#Services" style="display: inline-block; padding: 10px; background-color: #2e0231; color: rgb(247, 243, 243); text-decoration: none; ">Services</a>
+    <a href="#Contact" style="display: inline-block; padding: 10px; background-color: #2e0231; color: rgb(247, 243, 243); text-decoration: none;">Contact</a>
+    </div>
+    <h2 style="color: black;">My First Blog:</h2>
+    <p style="margin: 10px; padding: 10px; background-color: rgb(14, 0, 12); color:rgb(246, 249, 251); border-radius:10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab deleniti animi quam doloribus rerum, omnis, et asperiores cum iusto, voluptatibus a. Accusamus voluptate porro blanditiis excepturi eum perspiciatis, eaque unde dolores, doloribus eligendi deserunt fugiat, a vel cum? Blanditiis distinctio ea placeat cupiditate omnis aliquam suscipit inventore veniam nemo molestiae.</p>
+    <div style="text-align:right;">
+    <a href="https://www.example.com" style="color: #0c0c0c; text-decoration: none; font-weight: bold;">
+        Visit Example.com
+    </a>
+    <button style="background-color: #27ae60; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+        Click Me
+    </button>
+    </div>
+</body>
+</html>
