@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog - Destinations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home3.html">Home</a></li>
+                <li><a href="about3.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact3.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Destinations</h1>
+    </header>
+    <main>
+        <section class="destinations">
+            <article>
+                <h2>Destination 1</h2>
+                <img src="destination1.jpeg" alt="Destination 1">
+                <p>Internationally renowned as a centre for botanical artwork and conservation of plants, Lalbagh is one of the most scenic gardens in the state. Sprawling over an area of 240 acre, the park draws visitors in large numbers with its popular glass house and also serves as a home for as many as 1,854 species of plants.</p>
+            </article>
+            <article>
+                <h2>Destination 2</h2>
+                <img src="destination2.jpeg" alt="Destination 2">
+                <p>Perur Pateeswarar Temple is a Hindu temple dedicated to Lord Shiva. It's believed to have been built by the Cholas in the 2nd century AD and is famous for its intricate carvings and sculptures. Its architectural grandeur and religious significance. </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Simple Travel Blog Website</p>
+        <p>
+            <a href="https://linkedin.com/in/navya-chetana-r-l-aa042117b" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/navyachetu7483" target="_blank">GitHub</a> |
+        </p>
+    </footer>
+</body>
+</html>
