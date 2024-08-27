@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3a5f6e;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 10px;
+}
+
+.featured-post, .blog-posts, .destinations, .gallery, .about-me, .contact-form {
+    margin-bottom: 20px;
+}
+
+.featured-post h2, .blog-posts h1, .destinations h1, .gallery h1, .about-me h1, .contact-form h1 {
+    color: #2a9d8f;
+}
+
+.featured-post a, .blog-posts a, .destinations a, .gallery a, .contact-form a {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+
+.featured-post a:hover, .blog-posts a:hover, .destinations a:hover, .gallery a:hover, .contact-form a:hover {
+    text-decoration: underline;
+}
+
+.about-me img, .destinations img, .gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-posts .date {
+    color: #999;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 5px 0 2px;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.contact-form button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #21867a;
+}
+
+footer {
+    background-color: #264653;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
