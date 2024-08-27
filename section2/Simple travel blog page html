@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog - Blog Posts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home3.html">Home</a></li>
+                <li><a href="about3.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact3.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Blog Posts</h1>
+    </header>
+    <main>
+        <section class="blog-posts">
+            <article>
+                <h2>Blog Post Independence day</h2>
+                <p class="date">August 15, 2024</p>
+                <p>India celebrates its Independence Day on August 15th every year to commemorate the day in 1947 when the Indian Independence Act came into effect, ending 200 years of British rule and establishing India and Pakistan as separate countries.</p>
+                <a href="blog-post.html">Read More</a>
+            </article>
+            <article>
+                <h2>Blog Post birthday</h2>
+                <p class="date">August 10, 2024</p>
+                <p>A birthday is the anniversary of the birth of a person, or figuratively of an institution. Birthdays of people are celebrated in numerous cultures, often with birthday gifts, birthday cards, a birthday party, or a rite of passage.</p>
+                <a href="blog-post.html">Read More</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Simple Travel Blog Website</p>
+        <p>
+            <a href="https://linkedin.com/in/navya-chetana-r-l-aa042117b" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/navyachetu7483" target="_blank">GitHub</a> |
+        </p>
+    </footer>
+</body>
+</html>
