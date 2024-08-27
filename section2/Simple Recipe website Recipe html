@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Recipe Website - Recipes</title>
+    <link rel="stylesheet" href="assignment2styles2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home1.html">Home</a></li>
+                <li><a href="Recipes.html">Recipes</a></li>
+                <li><a href="Contact1.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Recipes</h1>
+    </header>
+    <main>
+        <section class="recipe-list">
+            <article>
+                <h2>Jalebi</h2>
+                <p>Jalebi is a funnel-cake-like treat made by piping spirals of slightly fermented batter into hot oil, and then soaking the whorls in warm sugar syrup. Making jalebi is a bit fiddly. It requires both a keen understanding of fermentation and temperature and some comfort with candy-making and deep-frying.</p>
+                <a href="Recipe-detail.html">Read More</a>
+            </article>
+            <article>
+                <h2>Noodles</h2>
+                <p>Noodles are a type of food made from unleavened dough which is rolled flat and cut, stretched or extruded, into long strips or strings. This is an eatable food item under instant food products and very popular food. Noodles are usually cooked in boiling water, sometimes with cooking oil or salt added.</p>
+                <a href="recipe-detail.html">Read More</a>
+            </article>
+            <article>
+                <h2>Champakali</h2>
+                <p>Champakali is made into oval-shaped dumplings that are cooked in a light sugar syrup and filled with cream. The dumplings have a delicious, melt-in-your-mouth texture and are ideal for ending a spicy dinner.</p>
+                <a href="recipe-detail.html">Read More</a>
+            </article>
+            <article>
+                <h2>Gobi Manchurian</h2>
+                <p>Gobi Manchurian is an Indian-Chinese dish beloved in India and among Indian food lovers everywhere. It features battered and deep-fried cauliflower (gobi) tossed in a flavorful sauce made with soy sauce, chili sauce, and a generous amount of aromatics.</p>
+                <a href="recipe-detail.html">Read More</a>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Simple Recipe Website</p>
+        <p>
+            <a href="https://linkedin.com/in/navya-chetana-r-l-aa042117b" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/navyachetu7483" target="_blank">GitHub</a> |
+        </p>
+    </footer>
+       
+</body>
+</html>
