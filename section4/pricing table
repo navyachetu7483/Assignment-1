@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        .pricing-table {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.pricing-card h2 {
+    margin: 0 0 10px;
+}
+
+.pricing-card p {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pricing-card ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.pricing-card ul li {
+    margin-bottom: 10px;
+}
+
+.pricing-card button {
+    padding: 10px;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pricing-card button:hover {
+    background-color: #000504;
+}
+    </style>
+</head>
+<body>
+    <div class="pricing-table">
+        <div class="pricing-card">
+            <h2>Basic Recharge Plan</h2>
+            <p>Rs10/month</p>
+            <ul>
+                <li>1GB/day data</li>
+                <li>Unlimited Calls</li>
+                <li>100 sms/day</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+        <div class="pricing-card">
+            <h2>Standard Recharge Plan</h2>
+            <p>Rs19/month</p>
+            <ul>
+                <li>1GB/day data</li>
+                <li>Unlimited Calls</li>
+                <li>100 sms/day</li>
+                <li>Amazon prime subscription</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+        <div class="pricing-card">
+            <h2>Premium Recharge Plan</h2>
+            <p>Rs29/month</p>
+            <ul>
+                <li>1GB/day data</li>
+                <li>Unlimited Calls</li>
+                <li>100 sms/day</li>
+                <li>Amazon prime subscription</li>
+                <li>Disney hotstar subscription</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>
