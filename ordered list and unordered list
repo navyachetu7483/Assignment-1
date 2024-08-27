@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list styles</title>
+    <style>
+        .ordered-list-type1{
+            list-style-type:Decimal;
+        }
+        .ordered-list-type2{
+            list-style-type: upper-roman;
+        }
+        .ordered-list-type3{
+            list-style-type: Square;
+        }
+        .unordered-list-type1{
+            list-style-type:Disc;
+        }
+        .unordered-list-type2{
+            list-style-type: Circle;
+        }
+        .unordered-list-type3{
+            list-style-type: upper-alpha;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ordered List Examples</h1>
+
+    <h2>Decimal</h2>
+    <ol class="ordered-list-type1">
+        <li>Lion</li>
+        <li>Tiger</li>
+        <li>Elephant</li>
+    </ol>
+
+    <h2>upper roman</h2>
+    <ol Class="ordered-list-type2">
+        <li>Gold fish</li>
+        <li>Shark</li>
+        <li>Blue whale</li>
+    </ol>
+
+    <h2>Square</h2>
+    <ol Class="ordered-list-type3">
+        <li>Peacock</li>
+        <li>Pigeon</li>
+        <li>Crow</li>
+    </ol>
+
+    <h1>
+        Unordered List Examples
+    </h1>
+
+    <h2>Disc</h2>
+    <ol class="unordered-list-type1">
+        <li>Lion</li>
+        <li>Tiger</li>
+        <li>Elephant</li>
+    </ol>
+
+    <h2>Circle</h2>
+    <ol Class="unordered-list-type2">
+        <li>Gold fish</li>
+        <li>Shark</li>
+        <li>Blue whale</li>
+    </ol>
+
+    <h2>Upper-alpha</h2>
+    <ol Class="unordered-list-type3">
+        <li>Peacock</li>
+        <li>Pigeon</li>
+        <li>Crow</li>
+    </ol>
+
+</body>
+</html>
