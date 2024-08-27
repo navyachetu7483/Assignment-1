@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Recipe Website - Recipes details</title>
+    <link rel="stylesheet" href="assignment2styles2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="Home1.html">Home</a></li>
+                <li><a href="Recipes.html">Recipes</a></li>
+                <li><a href="Contact1.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Recipe Title</h1>
+    </header>
+    <main>
+        <section class="recipe-detail">
+            <img src="dish1.jpeg" alt="Jalebi Image">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>Maida</li>
+                <li>Sugar syrup</li>
+            </ul>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Make a batter with maida and water like a flowing consistency, make shapes as a spiral and deep fry in the oil</li>
+                <li>Now add the deep fryed jalebis in the sugar syrup</li>
+            </ol>
+        </section>
+        <section class="recipe-detail">
+            <img src="dish2.jpg" alt="Noodles Image">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>Noodles</li>
+                <li>Vegetables</li>
+                <li>soy sauce</li>
+            </ul>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Boil the noodles in the water for 5 minutes.</li>
+                <li>fry the vegetables and add noodles and add sauces.</li>
+            </ol>
+        </section>
+        <section class="recipe-detail">
+            <img src="dish3.jpeg" alt="Champakali Image">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>paneer</li>
+                <li>kova</li>
+            </ul>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Make panner and boil with sugar syrup</li>
+                <li>Cut the paneer in between and add kova in the between of paneer</li>
+            </ol>
+        </section>
+        <section class="recipe-detail">
+            <img src="dish4.jpeg" alt="Gobi Manchurian Image">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>Gobi</li>
+                <li>Vegetables</li>
+                <li>sauces</li>
+            </ul>
+            <h2>Instructions</h2>
+            <ol>
+                <li>Make a batter with maida and water like a flowing consistency, add gobis and deep fry the gobis</li>
+                <li>Now add the deep fryed in vegetables and sauces</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <p>Simple Recipe Website</p>
+        <p>
+            <a href="https://linkedin.com/in/navya-chetana-r-l-aa042117b" target="_blank">LinkedIn</a> |
+            <a href="https://github.com/navyachetu7483" target="_blank">GitHub</a> |
+        </p>
+    </footer>
+</body>
+</html>
