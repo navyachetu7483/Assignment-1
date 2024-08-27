@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+    <style>
+        .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.gallery img {
+    flex: 1 1 calc(33.333% - 20px);
+    width: 100%;
+    height: auto;
+}
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="gallery1.jpeg" alt="Gallery Image 1">
+        <img src="gallery2.jpeg" alt="Gallery Image 2">
+    </div>
+</body>
+</html>
