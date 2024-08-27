@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>heading&paragraph</title>
+    <style>
+        .section {
+            background-color: #abe7fb; 
+            padding: 20px;
+            border-radius: 25px;
+            margin: 50px;
+        }
+
+        .section h2 {
+            color: #181919; 
+        }
+
+        .section p {
+            color: #171717; 
+        }
+
+    </style>
+</head>
+<body>
+    <Section class="section">
+        <h1>Section</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, ullam fugiat? Sed vero repellendus ab in nemo officiis veritatis quod possimus vitae asperiores nobis iure similique cumque minus sequi labore eum, atque laudantium quo nostrum dicta nam consequuntur! Atque dolorum molestiae soluta impedit alias perspiciatis rem quasi eum magnam veniam, nihil tenetur optio est, exercitationem neque fugit totam possimus. Eaque odio ea nulla amet soluta voluptatibus delectus quae molestiae recusandae! Perspiciatis tenetur reiciendis optio nemo porro, corrupti provident vitae quo explicabo maxime illum nihil earum cumque! Ad cupiditate amet sunt unde, sapiente soluta. Iste, quidem. Quam officiis obcaecati saepe maiores dicta voluptates minus quos nisi id perspiciatis nemo, dolorum fugiat architecto at similique ducimus! Libero vero nisi, tenetur necessitatibus officiis pariatur repellendus, fuga quod modi autem praesentium dolore. Officiis non quis blanditiis fuga perspiciatis nisi at ut deleniti sint praesentium dolores, doloremque ducimus temporibus inventore rerum a earum illo iste officia debitis quae pariatur tenetur accusamus. Vitae possimus mollitia numquam corrupti similique ratione voluptates deleniti unde facilis? Quasi provident facilis laborum consequuntur voluptatibus assumenda eaque dolore illum sint quis magnam iusto labore vitae impedit ullam optio, molestiae pariatur consectetur exercitationem iure quo distinctio vero! Iusto explicabo pariatur odit, aperiam alias quod iste sint maxime exercitationem illum quibusdam ex accusantium ea suscipit dolores maiores voluptatibus dignissimos expedita ducimus! Ipsa sit, impedit corrupti, facere inventore accusantium repellendus, reiciendis deserunt labore cum necessitatibus nemo ex perferendis. Excepturi, nam ratione ex velit nemo delectus fuga architecto illum molestiae possimus natus recusandae ipsa expedita sequi, voluptates dolorum earum exercitationem quos nostrum. Autem fuga ullam eveniet adipisci eos consectetur, soluta exercitationem praesentium reprehenderit voluptatum harum, sed natus cupiditate quibusdam ipsa, nam asperiores. Quam praesentium hic inventore pariatur reprehenderit maxime dolor dolorem, quo porro, magni provident eum asperiores est. Eligendi ipsum reiciendis perspiciatis facilis culpa porro dignissimos, unde suscipit, voluptates magnam velit voluptas adipisci quia quam! Praesentium illo ipsa incidunt ut, commodi eos est, sapiente unde impedit, facere fugiat. Error culpa autem deleniti, neque voluptatem eum praesentium inventore minus eligendi quibusdam animi necessitatibus nobis, consectetur at. Doloremque sint dolor officia necessitatibus. Doloribus rerum iure fugiat molestias numquam consequatur! Provident assumenda saepe, nostrum necessitatibus inventore laborum voluptate animi mollitia hic autem delectus, distinctio temporibus veniam corporis vitae officiis ullam soluta, voluptas accusantium. Ducimus harum eligendi modi qui laborum tenetur aliquid unde blanditiis maiores. At, molestias illo quidem ratione ab voluptas consequatur temporibus quas doloremque obcaecati culpa dolores non nulla. Nemo sed facere laudantium quia libero doloribus velit hic pariatur non illo veritatis magni, quidem consectetur ducimus totam molestias officia officiis voluptatibus neque culpa odit animi voluptate! Ducimus velit aliquam minima adipisci perspiciatis molestiae itaque sint at commodi tempore est fuga dolorum distinctio dolore ea, quae nesciunt nam tempora? Officia voluptatem, sapiente aliquid dignissimos consequatur facere quibusdam fugit dolorum vero, expedita animi odio maiores minima non? Laboriosam modi exercitationem minima inventore? Laboriosam repellendus, illum repellat reiciendis blanditiis consectetur alias fugiat, aut dolorum nemo quae iste distinctio, dicta expedita sed voluptates. Cumque molestiae neque doloremque obcaecati aperiam excepturi quaerat officiis.</p>
+    </Section>
+</body>
+</html>
